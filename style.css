@@ -1,0 +1,223 @@
+body{
+    background-color: white;
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: lexend;
+}
+
+.background-wave {
+    background-repeat:no-repeat;
+    width: 1fr 1fr 1fr 1fr;
+        /* display: flex;
+        justify-content: center; align-items: center; */
+        display: grid;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+}
+
+p{
+    color: #000000;
+}
+
+h1{
+    color: #000000;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    background-color: white;
+    height: 15vh;
+    width: 100vw;
+    justify-content: space-between;
+    margin-bottom: 7%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header img{
+    height: 15vh;
+    width: 20vw;
+    transition: 0.3s;
+    margin-left: 6.5%;
+}
+
+header img:hover{
+    scale: 1.1;
+}
+
+header nav{
+    height: 15vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav div.nav-buttuns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 13vw;
+    background-color: rgba(236, 255, 247, 1);
+    transition: 0.3s;
+    border-radius: 14px;
+}
+
+nav div.nav-buttuns:hover{
+    scale: 1.1;
+}
+
+
+
+header nav h1{
+    font-size: 150%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    margin-top: 7%;
+    display: flex;
+    background-color: rgba(218, 236, 228, 1);
+    height: 15vh;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.dabloon{
+    display: grid;
+    margin-left: 3%;
+    width: 90vw;
+    height: 70vh;
+    grid-column-gap: 2%;
+	grid-row-gap: 2%;
+    grid-template-rows: 1fr 1fr ;
+}
+
+.dabloon-top-left{
+    /* row 1 - 2 - left */
+    width: 37vw;
+    height: 67vh;
+    background-color: rgba(236, 255, 247, 1);
+    border-radius: 20px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.dabloon-mid{
+    /* img */
+    width: 15vw;
+    height: 31vh;
+    border-radius: 20px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+}
+
+/* div.dabloon-mid img{
+    width: 14vw;
+    height: 31vh;
+    border-radius: 20px;
+} */
+
+.dabloon-top-right{
+    /* row 1 - 2 - right */
+    width: 37vw;
+    height: 31vh;
+    background-color: rgba(236, 255, 247, 1);
+    border-radius: 20px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.dabloon-bot{
+    width: 37vw;
+    height: 31vh;
+    background-color: rgba(236, 255, 247, 1);
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    border-radius: 20px;
+}
+
+.My-work{
+    display: grid;
+    margin-left: 3%;
+    width: 90vw;
+    height: 70vh;
+    grid-column-gap: 2%;
+	grid-row-gap: 2%;
+    grid-template-rows: 1fr 1fr ;
+}
+
+.dabloon-top-left-work{
+    /* row 1 - 2 - left */
+    width: 37vw;
+    height: 67vh;
+    background-color: rgba(236, 255, 247, 1);
+    border-radius: 20px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.dabloon-mid-work{
+    /* img */
+    width: 15vw;
+    height: 31vh;
+    border-radius: 20px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+}
+
+/* div.dabloon-mid img{
+    width: 14vw;
+    height: 31vh;
+    border-radius: 20px;
+} */
+
+.dabloon-top-right-work{
+    /* row 1 - 2 - right */
+    width: 37vw;
+    height: 31vh;
+    background-color: rgba(236, 255, 247, 1);
+    border-radius: 20px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.dabloon-bot-work{
+    width: 37vw;
+    height: 31vh;
+    background-color: rgba(236, 255, 247, 1);
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    border-radius: 20px;
+}
