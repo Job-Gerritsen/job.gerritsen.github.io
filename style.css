@@ -221,3 +221,72 @@ footer{
     grid-column-end: 3;
     border-radius: 20px;
 }
+
+
+
+
+
+
+
+.who-am-i{
+    display: grid;
+    margin-left: 3%;
+    width: 90vw;
+    height: 70vh;
+    grid-column-gap: 2%;
+	grid-row-gap: 2%;
+    grid-template-rows: 1fr 1fr ;
+}
+
+.dabloon-top-left-who-am-i{
+    /* row 1 - 2 - left */
+    width: 37vw;
+    height: 67vh;
+    background-color: rgba(236, 255, 247, 1);
+    border-radius: 20px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.dabloon-mid-who-am-i{
+    /* img */
+    width: 15vw;
+    height: 31vh;
+    border-radius: 20px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+}
+
+/* div.dabloon-mid img{
+    width: 14vw;
+    height: 31vh;
+    border-radius: 20px;
+} */
+
+.dabloon-top-right-who-am-i{
+    /* row 1 - 2 - right */
+    width: 37vw;
+    height: 31vh;
+    background-color: rgba(236, 255, 247, 1);
+    border-radius: 20px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.dabloon-bot-who-am-i{
+    width: 37vw;
+    height: 31vh;
+    background-color: rgba(236, 255, 247, 1);
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    border-radius: 20px;
+}
